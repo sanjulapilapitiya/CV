@@ -1,7 +1,7 @@
 <template>
     <div class="container row align-items-center g-5 py-5 px-4 mx-auto">
         <div class="col-10 col-sm-8 col-lg-6 mx-auto">
-            <img class="circular-image mx-auto d-block" src="/jpg/aboutMe.jpg" alt="PHP Logo"/>
+            <img class="circular-image mx-auto d-block" src="jpg/aboutMe.jpg" alt="PHP Logo"/>
         </div>
       <div class="col-lg-6">
         <h1 class="aboutMe-header display-5 fw-bold text-emphasis lh-1 mb-3">A little about myself</h1>

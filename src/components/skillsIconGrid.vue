@@ -6,28 +6,28 @@
   
           <div class="row row-cols-2 row-cols-md-3 g-4 py-4">
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/php-logo.svg" alt="PHP Logo" />
+              <img class="logo" src="svg/php-logo.svg" alt="PHP Logo" />
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/javascript-logo.svg" alt="JavaScript Logo" />
+              <img class="logo" src="svg/javascript-logo.svg" alt="JavaScript Logo" />
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/vue-logo.svg" alt="Vue Logo" />
+              <img class="logo" src="svg/vue-logo.svg" alt="Vue Logo" />
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/symfony-logo.svg" alt="Symfony Logo" />
+              <img class="logo" src="svg/symfony-logo.svg" alt="Symfony Logo" />
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/apiPlatform-logo.svg" alt="API Platform Logo" />
+              <img class="logo" src="svg/apiPlatform-logo.svg" alt="API Platform Logo" />
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/docker-logo.svg" alt="Docker Logo" />
+              <img class="logo" src="svg/docker-logo.svg" alt="Docker Logo" />
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/bootstrap-logo.svg" alt="Bootstrap Logo" />
+              <img class="logo" src="svg/bootstrap-logo.svg" alt="Bootstrap Logo" />
             </div>
             <div class="col d-flex justify-content-center align-items-center">
-              <img class="logo" src="/svg/git-logo.svg" alt="Git Logo" />
+              <img class="logo" src="svg/git-logo.svg" alt="Git Logo" />
             </div>
           </div>
         </div>
@@ -39,11 +39,11 @@
                         <p>
                             Feel free to connect on LinkedIn
                         </p>
-                        <img src="/svg/linkedin-logo.svg" alt="LinkedIn Logo" style="max-height: 50px;" />
+                        <img src="svg/linkedin-logo.svg" alt="LinkedIn Logo" style="max-height: 50px;" />
                     </a>
                 </div>
                 <div class="col-sm d-flex flex-column align-items-center text-center">
-                    <a class="logo" href="/CV.pdf" download="CV.pdf" style="max-width: 250px; text-decoration: none; padding: 5%;">
+                    <a class="logo" href="CV.pdf" download="CV.pdf" style="max-width: 250px; text-decoration: none; padding: 5%;">
                         <p>
                             Want to download my CV?
                         </p>

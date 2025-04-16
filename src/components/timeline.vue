@@ -11,7 +11,7 @@
                     <p>This is where my commercial experience started, As a junior I was surrounded by talented developers giving me a strong foundation to build on.</p>
                     <p>I've managed to upskill my self quickly and was even trusted to work on the insurance platform as the only dev giving me full autonomy </p>
                     <div class="thumbs">
-                        <img class="img-fluid rounded" src="/svg/currys-logo.svg" alt="Maxwell Admin">
+                        <img class="img-fluid rounded" src="svg/currys-logo.svg" alt="Maxwell Admin">
                     </div>
                     <div>
                         <span class="badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill m-1">PHP</span>
@@ -36,7 +36,7 @@
                     </p>
                     <div class="thumbs">
                         <div class="thumbs">
-                        <img class="img-fluid rounded" src="/jpg/evident-logo.jpg" alt="Maxwell Admin">
+                        <img class="img-fluid rounded" src="jpg/evident-logo.jpg" alt="Maxwell Admin">
                     </div>
                     </div>
                     <div>
