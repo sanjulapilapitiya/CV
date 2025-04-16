@@ -1,5 +1,5 @@
 {
-  "name": "traveltracker",
+  "name": "cv",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanjulapilapitiya/TravelTracker.git"
+    "url": "git+https://github.com/sanjulapilapitiya/CV.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sanjulapilapitiya/TravelTracker/issues"
+    "url": "https://github.com/sanjulapilapitiya/CV/issues"
   },
-  "homepage": "https://sanjulapilapitiya.github.io/TravelTracker/",
+  "homepage": "https://sanjulapilapitiya.github.io/CV/",
   "description": "",
   "dependencies": {
     "bootstrap": "^5.3.5",
