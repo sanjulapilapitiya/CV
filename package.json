@@ -1,0 +1,30 @@
+{
+  "name": "traveltracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjulapilapitiya/TravelTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjulapilapitiya/TravelTracker/issues"
+  },
+  "homepage": "https://sanjulapilapitiya.github.io/TravelTracker/",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "vue": "^3.x.x"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "gh-pages": "^6.3.0"
+  }
+}
