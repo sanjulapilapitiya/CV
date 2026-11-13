@@ -1,7 +1,9 @@
 <template>
-    <footer class="py-3 my-4">
-        <p class="text-center text-light">Made by your's truly</p>
-        <p class="text-center text-light">Made with Vue, Bootstrap and hosted on git pages</p>
+    <footer class="site-footer mt-auto">
+        <div class="container py-4">
+            <p class="text-center mb-1">Made by yours truly</p>
+            <p class="text-center mb-0 small">Made with Vue, Bootstrap and hosted on GitHub Pages</p>
+        </div>
     </footer>
 </template>
 
@@ -10,3 +12,10 @@
     name: 'basefooter',
     };
 </script>
+
+<style scoped>
+.site-footer {
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+}
+</style>

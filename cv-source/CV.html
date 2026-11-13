@@ -1,0 +1,178 @@
+<!doctype html>
+<!--
+  Source for public/CV.pdf. To regenerate after editing:
+  "/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" --headless --disable-gpu --no-pdf-header-footer --print-to-pdf="public/CV.pdf" "file:///<full path>/cv-source/CV.html"
+-->
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Sanjula Pilapitiya – CV</title>
+<style>
+  @page { size: A4; margin: 13mm 15mm; }
+  :root {
+    --ink: #1b2230;
+    --muted: #4a5568;
+    --accent: #0e7490;
+    --rule: #cfd8e3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Calibri, "Segoe UI", Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.38;
+    color: var(--ink);
+  }
+  a { color: var(--accent); text-decoration: none; }
+
+  header { text-align: center; margin-bottom: 10pt; }
+  h1 { font-size: 22pt; margin: 0; letter-spacing: 0.02em; }
+  .role { font-size: 11.5pt; color: var(--accent); font-weight: 700; margin: 1pt 0 4pt; }
+  .contact { color: var(--muted); font-size: 10pt; }
+  .contact span + span::before { content: "·"; margin: 0 6pt; color: var(--rule); }
+
+  h2 {
+    font-size: 11.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    border-bottom: 1.2pt solid var(--rule);
+    padding-bottom: 2pt;
+    margin: 12pt 0 6pt;
+    break-after: avoid;
+  }
+  p { margin: 0 0 4pt; }
+
+  .skills { display: grid; grid-template-columns: 34mm 1fr; gap: 2pt 8pt; }
+  .skills dt { font-weight: 700; }
+  .skills dd { margin: 0; }
+
+  .job { margin-bottom: 9pt; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; break-after: avoid; }
+  .job-title { font-weight: 700; font-size: 11pt; }
+  .dates { font-weight: 700; color: var(--muted); white-space: nowrap; }
+  .note { color: var(--accent); font-style: italic; margin: 1pt 0 2pt; }
+  .context { color: var(--muted); margin-bottom: 3pt; }
+  ul { margin: 2pt 0 0; padding-left: 13pt; }
+  li { margin-bottom: 2.5pt; break-inside: avoid; }
+  li b { color: var(--ink); }
+
+  .edu-head { display: flex; justify-content: space-between; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Sanjula Pilapitiya</h1>
+  <div class="role">Senior Developer · Full-stack with a front-end focus</div>
+  <div class="contact">
+    <span>Sheffield</span>
+    <span>07477401340</span>
+    <span><a href="mailto:Sanjulapilapitiya@hotmail.com">Sanjulapilapitiya@hotmail.com</a></span>
+  </div>
+  <div class="contact">
+    <span><a href="https://sanjulapilapitiya.github.io/CV/">sanjulapilapitiya.github.io/CV</a></span>
+    <span><a href="https://www.linkedin.com/in/sanjula-pilapitiya-8524361aa">linkedin.com/in/sanjula-pilapitiya-8524361aa</a></span>
+  </div>
+</header>
+
+<section>
+  <h2>Profile</h2>
+  <p>
+    Senior Developer with 6+ years of commercial experience across PHP, Symfony, Vue.js, JavaScript and SQL, with a growing
+    focus on the front end. Most recently led the end-to-end rebrand of a large legacy recruitment SaaS platform, building a
+    design system and full dark mode across 2,000+ files and reworking key pages mobile-first, which led to my promotion to
+    Senior Developer. Strong background in API development, performance optimisation and security, and an advocate of modern
+    practices such as TDD and component-based front-end design.
+  </p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <dl class="skills">
+    <dt>Languages</dt>
+    <dd>PHP, JavaScript, TypeScript, HTML, CSS, SQL (MySQL, PostgreSQL), Java</dd>
+    <dt>Front end</dt>
+    <dd>Vue 2/3, Nuxt, jQuery, Bootstrap, design systems, dark mode theming, responsive / mobile-first design, AJAX, Google Maps JavaScript API</dd>
+    <dt>Back end</dt>
+    <dd>Symfony, API Platform, REST APIs, PDO, query optimisation, API security</dd>
+    <dt>Tools &amp; DevOps</dt>
+    <dd>Docker, Git, Postman, MySQL Workbench, VS Code, PhpStorm, Linux (Ubuntu)</dd>
+    <dt>Ways of working</dt>
+    <dd>TDD, unit testing, Behat, Agile/Scrum, technical documentation</dd>
+  </dl>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Senior Developer – CentricFlow</span>
+      <span class="dates">June 2025 – Present</span>
+    </div>
+    <p class="note">Joined as PHP Developer; promoted to Senior Developer after successfully leading the platform rebrand.</p>
+    <p class="context">Large legacy recruitment and staffing SaaS platform (CRM, booking plans, timesheets, candidate onboarding, compliance, client and candidate portals) built on PHP, MySQL, jQuery and Bootstrap.</p>
+    <ul>
+      <li><b>Platform rebrand:</b> Led the phased rebrand from CentricFlow to Evertime CRM / Evertime Pay &amp; Bill across every main tab, SPA, client and candidate portal, timesheet site, login gateway, email and PDF, touching 2,000+ legacy files, with QA check calls and hotfix rounds for each release.</li>
+      <li><b>Design system &amp; dark mode:</b> Unified years of one-off styling into consistent components (buttons, badges, alerts, modals, cards, tables, headers) and added a full dark mode, untangling hard-coded colours and !important overrides.</li>
+      <li><b>Mobile-first rework:</b> Rebuilt the candidate onboarding wizard for phones (progress bar, screen-fitting signature pad, 10MB uploads with a live size meter that prevents silently dropped submissions) and made the dashboard, diary and timesheets responsive.</li>
+      <li><b>Loading states:</b> Added a site-wide preloader, skeleton loaders on heavy pages, and loading/failed states with double-click protection across AJAX sections and form submits.</li>
+      <li><b>Performance:</b> Fixed N+1 queries, replaced SELECT * with targeted columns, added pagination, removed unused JS and CSS, served responsive images, and cut dashboard auto-refresh from every 30 seconds to every 15 minutes / hourly.</li>
+      <li><b>Security &amp; modernisation:</b> Moved raw SQL to PDO prepared statements, fixed SQL injection issues, added agency-ID scoping for multi-tenant data isolation and an HSTS header, and set up a Docker environment and test branch for the PHP 7.2 → 8.5 upgrade.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Software Engineer – Evident, Sheffield</span>
+      <span class="dates">May 2023 – May 2025</span>
+    </div>
+    <ul>
+      <li><b>Vue 2 → Vue 3 migration:</b> Led the front-end upgrade to Vue 3, reducing security vulnerabilities and improving code maintainability.</li>
+      <li><b>Evident Device Register:</b> Worked on the public device register, using the Google Maps JavaScript API to plot registered devices on an interactive world map with clustered markers, alongside a table view.</li>
+      <li><b>API security:</b> Implemented group generators to improve API validation and reduce false 500 errors.</li>
+      <li><b>Package upgrades:</b> Refactored and upgraded third-party packages (e.g. Google Maps), improving performance and security.</li>
+      <li><b>Technical documentation:</b> Wrote API documentation for external partners, improving onboarding and reducing support queries.</li>
+      <li><b>TDD:</b> Advocated for unit testing, moving the team from BDD to TDD for more reliable code.</li>
+      <li><b>Research &amp; discovery:</b> Led R&amp;D tasks, testing NPM packages and evaluating best practices for new business requirements.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span class="job-title">Software Engineer – Currys, London</span>
+      <span class="dates">Sept 2020 – April 2023</span>
+    </div>
+    <ul>
+      <li><b>Customer experience:</b> Improved Currys’ online services by developing new web forms, reducing phone contacts.</li>
+      <li><b>Automation &amp; cost savings:</b> Built automated tools for price matching and voucher redemptions, saving the company operational costs.</li>
+      <li><b>Tech insurance platform:</b> Developed an insurance bundling system for tablets as the sole developer on the platform, working with payment APIs and database queries.</li>
+      <li><b>Testing &amp; QA:</b> Wrote unit and Behat tests, ensuring robust application performance and minimising bugs.</li>
+      <li><b>Agile development:</b> Worked in Scrum teams, collaborating with stakeholders to align technical solutions with business needs.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="edu-head"><span>De Montfort University, Leicester</span><span class="dates">2017 – 2020</span></div>
+  <p>BSc (Hons) Computer Science – First Class</p>
+  <p>Key modules: Web Application Development, System Building, Database Management, Software Security, AI &amp; Machine Learning</p>
+
+  <div class="edu-head" style="margin-top:6pt"><span>St. Paul’s Catholic Comprehensive School, Leicester</span><span class="dates">2010 – 2017</span></div>
+  <p>A-Levels: Computer Science (C), Geography (D), Biology (D)</p>
+  <p>GCSEs: 9 grades A–C including Maths (B), Computer Science (C), English (C)</p>
+</section>
+
+<section>
+  <h2>Interests</h2>
+  <p>
+    I have a keen interest in all things tech, from computers to EVs and, more recently, AI, and in how technology keeps
+    becoming more accessible to more people. Outside of tech I enjoy the gym, have completed a 10km Winter Wolf Run, and am
+    a member of a tennis club, which is my favourite pastime.
+  </p>
+</section>
+
+</body>
+</html>
